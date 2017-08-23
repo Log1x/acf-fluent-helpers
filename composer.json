@@ -1,0 +1,28 @@
+{
+  "name": "log1x/acf-fluent-helpers",
+  "description": "Simple set of helper functions for ACF Fluent auto-loaded with Composer using generic function names. ",
+  "keywords": ["acf", "wordpress", "fluent", "interface", "wrapper", "helper"],
+  "license": "MIT",
+  "homepage": "https://github.com/log1x/acf-fluent-helpers",
+  "authors": [
+    {
+      "name": "Brandon Nifong",
+      "email": "log1x@log1x.com",
+      "homepage": "https://log1x.com"
+    }
+  ],
+  "autoload": {
+    "files": ["src/helpers.php"]
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+    ]
+  }
+}
