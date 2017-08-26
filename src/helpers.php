@@ -16,14 +16,14 @@ if (!function_exists('field')) {
     }
 }
 
-if (!function_exists('subfield')) {
+if (!function_exists('sub')) {
     /**
      * Return a new builder instance for a subfield.
      *
      * @param  string $name
      * @return \Samrap\Acf\Fluent\Builder
      */
-    function subfield($name)
+    function sub($name)
     {
         return Acf::subField($name);
     }

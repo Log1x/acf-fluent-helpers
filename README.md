@@ -20,6 +20,6 @@ composer require log1x/acf-fluent-helpers:dev-master
 
 ```php
 $field = field('example')->get();
-$subfield = subfield('example')->get();
+$subfield = sub('example')->get();
 $option = option('example')->get();
 ```
