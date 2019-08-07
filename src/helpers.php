@@ -2,7 +2,7 @@
 
 use Samrap\Acf\Acf;
 
-if (!function_exists('field')) {
+if (! function_exists('field')) {
     /**
      * Return a new builder instance for a field.
      *
@@ -16,7 +16,7 @@ if (!function_exists('field')) {
     }
 }
 
-if (!function_exists('sub')) {
+if (! function_exists('sub')) {
     /**
      * Return a new builder instance for a subfield.
      *
@@ -29,7 +29,7 @@ if (!function_exists('sub')) {
     }
 }
 
-if (!function_exists('option')) {
+if (! function_exists('option')) {
     /**
      * Return a new builder instance for an option field.
      *

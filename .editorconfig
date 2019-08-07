@@ -1,5 +1,3 @@
-# editorconfig.org
-
 root = true
 
 [*]
@@ -13,5 +11,5 @@ insert_final_newline = true
 [*.php]
 indent_size = 4
 
-[resources/views/**.php]
-indent_size = 2
+[*.md]
+trim_trailing_whitespace = false
